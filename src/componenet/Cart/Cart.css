@@ -1,0 +1,28 @@
+.most-Popular-item{
+    flex: 1 25%;
+ 
+}
+
+
+
+.cart-wrapper{
+  
+    background-color: var(--color-dark);
+    border: var(--border-redues);
+    padding: calc(var(--distance-primary) /4);
+    margin: calc(var(--margin-primary) /5);
+}
+.most-Popular-imge{
+    width: 100%;
+    border-radius: calc(var(--distance-primary) /4);
+    margin-bottom: calc(var(--margin-primary) /2);
+    height: 110px;
+}
+.most-Popular-item-content{
+    display: flex;
+    justify-content: space-between;
+}
+.most-Popular-item-title{
+    font-size: 14px;
+    line-height: 1.5rem;
+}

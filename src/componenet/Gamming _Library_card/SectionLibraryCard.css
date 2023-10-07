@@ -1,0 +1,27 @@
+.gamming_Library_card{
+    /* flex: 1 1 100%; */
+    width: 100%;
+}
+.gamming_Library_card ul{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--color-primary);
+    padding: calc(var(--padding-primary) /2) 0;
+}
+.gamming_Library_card h4{
+    font-size: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    .gamming_Library_card ul{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        
+
+
+    }
+    
+}

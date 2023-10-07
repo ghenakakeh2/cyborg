@@ -1,0 +1,7 @@
+.Gamming-library-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.red{
+    border: 1px solid red;
+}
